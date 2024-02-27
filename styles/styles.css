@@ -4,6 +4,12 @@
     margin: 0;
 }
 
+.section-title {
+    color: #131313;
+    font-size: 2.8125rem;
+    font-weight: 700;
+}
+
 .text-description {
     color: #727272;
     font-size: 1rem;
@@ -20,6 +26,12 @@
     font-size: 1.25rem;
     color: #fff;
     font-weight: 600;
+}
+
+main {
+    max-width: 1440px;
+    margin: 0 auto;
+
 }
 
 /* Header */
@@ -69,10 +81,27 @@ nav ul li a {
 
 }
 
-.banner .btn-primary{
+.banner .btn-primary {
     margin: 2rem 0;
 }
 
-.banner img{
+.banner img {
     width: 100%;
+}
+
+/* Quick feature section */
+.quick-feature {
+    display: flex;
+    gap: 4.75rem;
+    align-items: center;
+    margin: 130px 0;
+}
+
+.feature-images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+.feature-content p{
+    margin: 1.5rem 0 2rem 0;
 }
